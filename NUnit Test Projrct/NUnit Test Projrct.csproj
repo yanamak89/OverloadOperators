@@ -18,4 +18,15 @@
         <PackageReference Include="coverlet.collector" Version="6.0.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Task3\Task3.csproj" />
+        <ProjectReference Include="..\Task4\Task4.csproj" />
+        <ProjectReference Include="..\Task6\Task6.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Task3\" />
+        <Folder Include="Task4\" />
+    </ItemGroup>
+
 </Project>
